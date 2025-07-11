@@ -7,13 +7,14 @@ power_radius = 0;
 rotation_speed = 0.1;
 collision_radius = 16;
 building_ui = false;
+upgrades_ui = false;
 mouse_in_power_range = false;
 
-inv = [];
-inv_count = [];
+inv = [];					// The id of the item in each slot
+inv_count = [];				// The amount of item in each slot
 inv_filter_type = [];
 inv_filter = [];
-inv_size = 0;
+inv_size = 0;				// The number of inventory slots
 
 // "Pick up" items
 function collect(_item) {
