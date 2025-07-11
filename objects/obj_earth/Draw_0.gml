@@ -11,3 +11,6 @@ if grav_gun {
 }
 
 event_inherited();
+
+// Draw Buildings
+draw_sprite_ext(spr_earth_hydrogen_generator, 0, x, y, 1, 2, image_angle, c_white, 1);
