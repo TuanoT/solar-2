@@ -16,6 +16,8 @@ inv_filter_type = [];
 inv_filter = [];
 inv_size = 0;				// The number of inventory slots
 
+upgrades = [];				// An array of all this body's upgrade instances
+
 // "Pick up" items
 function collect(_item) {
 	

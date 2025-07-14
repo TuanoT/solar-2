@@ -1,21 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"obj_earth_hydrogen_generator",
+  "%Name":"obj_upgrade_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_earth_hydrogen_generator",
+  "name":"obj_upgrade_parent",
   "overriddenProperties":[],
   "parent":{
     "name":"Upgrades",
     "path":"folders/Objects/Upgrades.yy",
   },
-  "parentObjectId":{
-    "name":"obj_upgrade_parent",
-    "path":"objects/obj_upgrade_parent/obj_upgrade_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_earth_hydrogen_generator",
-    "path":"sprites/spr_earth_hydrogen_generator/spr_earth_hydrogen_generator.yy",
+    "name":"spr_body",
+    "path":"sprites/spr_body/spr_body.yy",
   },
   "spriteMaskId":null,
   "visible":true,
